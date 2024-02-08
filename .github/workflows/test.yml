@@ -1,6 +1,7 @@
 name: Test
 on: [push]
 
+# for set up test action
 jobs: 
   test:
     name: Test
