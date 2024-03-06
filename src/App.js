@@ -1,13 +1,14 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import store from './store';
-import RestaurantScreen from './components/RestaurantScreen';
+// import RestaurantScreen from './components/RestaurantScreen';
+import Counter from './features/counter/Counter';
 
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <RestaurantScreen />
-      </Provider>
+    <div className="App">
+      <Counter />
+    </div>
   );
 }
